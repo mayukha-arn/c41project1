@@ -1,7 +1,17 @@
+#header 
+print ("Project 1 for CS 341 \n Section number: H01 \n Semester: Fall 2026 \n Written by: Mayukha Ajeesh Ramsha Nath, 31678168 \n Instructor: Marvin Nakayama, marvin@njit.edu")
+
+#function
+def emailanalyzer784():
+
+    # function to analyze email addresses
+    pass
+
+emailanalyzer784()
 #notes:
 
 #all input/output thru standard input/output
-#need to create an output file with outputs
+#need to create an output file with outputs - either txt or Microsoft Word
 #all functions, subroutines, and classes should end in 784
 
 #part 0 - header

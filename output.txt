@@ -1,0 +1,392 @@
+Project 1 for CS 341 
+ Section number: H01 
+ Semester: Fall 2026 
+ Written by: Mayukha Ajeesh Ramsha Nath, 31678168 
+ Instructor: Marvin Nakayama, marvin@njit.edu
+
+Invalid input. Please enter an integer m greater than 0.
+20 
+Value of m: 20
+njit@njit.co
+Current value of i: 1, String: njit@njit.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: n, Next state: 2
+Current state: 2, Symbol read: j, Next state: 2
+Current state: 2, Symbol read: i, Next state: 2
+Current state: 2, Symbol read: t, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: n, Next state: 5
+Current state: 5, Symbol read: j, Next state: 5
+Current state: 5, Symbol read: i, Next state: 5
+Current state: 5, Symbol read: t, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+The string is accepted.
+
+
+b@d.co
+Current value of i: 2, String: b@d.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: b, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: d, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+The string is accepted.
+
+
+tuv@wxyz.cm
+Current value of i: 3, String: tuv@wxyz.cm
+Processing the string on the DFA.
+Current state: 1, Symbol read: t, Next state: 2
+Current state: 2, Symbol read: u, Next state: 2
+Current state: 2, Symbol read: v, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: w, Next state: 5
+Current state: 5, Symbol read: x, Next state: 5
+Current state: 5, Symbol read: y, Next state: 5
+Current state: 5, Symbol read: z, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: m, Next state: 9
+The string is accepted.
+
+
+opqr@.co
+Current value of i: 4, String: opqr@.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: o, Next state: 2
+Current state: 2, Symbol read: p, Next state: 2
+Current state: 2, Symbol read: q, Next state: 2
+Current state: 2, Symbol read: r, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+cmcm@com.co..co
+Current value of i: 5, String: cmcm@com.co..co
+Processing the string on the DFA.
+Current state: 1, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: m, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+ex.upd.se.r@com.c.pm.comp.co
+Current value of i: 6, String: ex.upd.se.r@com.c.pm.comp.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: e, Next state: 2
+Current state: 2, Symbol read: x, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: u, Next state: 2
+Current state: 2, Symbol read: p, Next state: 2
+Current state: 2, Symbol read: d, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: s, Next state: 2
+Current state: 2, Symbol read: e, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: r, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: m, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: p, Next state: 5
+Current state: 5, Symbol read: m, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: m, Next state: 10
+Current state: 10, Symbol read: p, Next state: 11
+Current state: 11, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+ilb.q.@at.co
+Current value of i: 7, String: ilb.q.@at.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: i, Next state: 2
+Current state: 2, Symbol read: l, Next state: 2
+Current state: 2, Symbol read: b, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: q, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: @, Next state: 11
+Current state: 11, Symbol read: a, Next state: 11
+Current state: 11, Symbol read: t, Next state: 11
+Current state: 11, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+net@internet.co.
+Current value of i: 8, String: net@internet.co.
+Processing the string on the DFA.
+Current state: 1, Symbol read: n, Next state: 2
+Current state: 2, Symbol read: e, Next state: 2
+Current state: 2, Symbol read: t, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: i, Next state: 5
+Current state: 5, Symbol read: n, Next state: 5
+Current state: 5, Symbol read: t, Next state: 5
+Current state: 5, Symbol read: e, Next state: 5
+Current state: 5, Symbol read: r, Next state: 5
+Current state: 5, Symbol read: n, Next state: 5
+Current state: 5, Symbol read: e, Next state: 5
+Current state: 5, Symbol read: t, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: ., Next state: 6
+The string is rejected.
+
+
+hi@abc.co.cmm
+Current value of i: 9, String: hi@abc.co.cmm
+Processing the string on the DFA.
+Current state: 1, Symbol read: h, Next state: 2
+Current state: 2, Symbol read: i, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: a, Next state: 5
+Current state: 5, Symbol read: b, Next state: 5
+Current state: 5, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: m, Next state: 9
+Current state: 9, Symbol read: m, Next state: 11
+The string is rejected.
+
+
+www@co.comp
+Current value of i: 10, String: www@co.comp
+Processing the string on the DFA.
+Current state: 1, Symbol read: w, Next state: 2
+Current state: 2, Symbol read: w, Next state: 2
+Current state: 2, Symbol read: w, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: m, Next state: 10
+Current state: 10, Symbol read: p, Next state: 11
+The string is rejected.
+
+
+poi@a.cm.comco
+Current value of i: 11, String: poi@a.cm.comco
+Processing the string on the DFA.
+Current state: 1, Symbol read: p, Next state: 2
+Current state: 2, Symbol read: o, Next state: 2
+Current state: 2, Symbol read: i, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: a, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: m, Next state: 9
+Current state: 9, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+Current state: 11, Symbol read: m, Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+.five@six.co
+Current value of i: 12, String: .five@six.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: f, Next state: 11
+Current state: 11, Symbol read: i, Next state: 11
+Current state: 11, Symbol read: v, Next state: 11
+Current state: 11, Symbol read: e, Next state: 11
+Current state: 11, Symbol read: @, Next state: 11
+Current state: 11, Symbol read: s, Next state: 11
+Current state: 11, Symbol read: i, Next state: 11
+Current state: 11, Symbol read: x, Next state: 11
+Current state: 11, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+commute@co.co@
+Current value of i: 13, String: commute@co.co@
+Processing the string on the DFA.
+Current state: 1, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: o, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: u, Next state: 2
+Current state: 2, Symbol read: t, Next state: 2
+Current state: 2, Symbol read: e, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: @, Next state: 11
+The string is rejected.
+
+
+comp@compu.cm.co
+Current value of i: 14, String: comp@compu.cm.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: o, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: p, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: m, Next state: 5
+Current state: 5, Symbol read: p, Next state: 5
+Current state: 5, Symbol read: u, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: m, Next state: 9
+Current state: 9, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+c.cam.c@c.co.cm
+Current value of i: 15, String: c.cam.c@c.co.cm
+Processing the string on the DFA.
+Current state: 1, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: a, Next state: 2
+Current state: 2, Symbol read: m, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: m, Next state: 9
+The string is accepted.
+
+
+@abcd.co
+Current value of i: 16, String: @abcd.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: @, Next state: 11
+Current state: 11, Symbol read: a, Next state: 11
+Current state: 11, Symbol read: b, Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: d, Next state: 11
+Current state: 11, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+bag.ca.zz@.co
+Current value of i: 17, String: bag.ca.zz@.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: b, Next state: 2
+Current state: 2, Symbol read: a, Next state: 2
+Current state: 2, Symbol read: g, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: a, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: z, Next state: 2
+Current state: 2, Symbol read: z, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+url..cs@ccs.co
+Current value of i: 18, String: url..cs@ccs.co
+Processing the string on the DFA.
+Current state: 1, Symbol read: u, Next state: 2
+Current state: 2, Symbol read: r, Next state: 2
+Current state: 2, Symbol read: l, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: s, Next state: 11
+Current state: 11, Symbol read: @, Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: s, Next state: 11
+Current state: 11, Symbol read: ., Next state: 11
+Current state: 11, Symbol read: c, Next state: 11
+Current state: 11, Symbol read: o, Next state: 11
+The string is rejected.
+
+
+cog@co
+Current value of i: 19, String: cog@co
+Processing the string on the DFA.
+Current state: 1, Symbol read: c, Next state: 2
+Current state: 2, Symbol read: o, Next state: 2
+Current state: 2, Symbol read: g, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: o, Next state: 5
+The string is rejected.
+
+
+r.ewq@g.co.omc.com
+Current value of i: 20, String: r.ewq@g.co.omc.com
+Processing the string on the DFA.
+Current state: 1, Symbol read: r, Next state: 2
+Current state: 2, Symbol read: ., Next state: 3
+Current state: 3, Symbol read: e, Next state: 2
+Current state: 2, Symbol read: w, Next state: 2
+Current state: 2, Symbol read: q, Next state: 2
+Current state: 2, Symbol read: @, Next state: 4
+Current state: 4, Symbol read: g, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: o, Next state: 5
+Current state: 5, Symbol read: m, Next state: 5
+Current state: 5, Symbol read: c, Next state: 5
+Current state: 5, Symbol read: ., Next state: 6
+Current state: 6, Symbol read: c, Next state: 7
+Current state: 7, Symbol read: o, Next state: 8
+Current state: 8, Symbol read: m, Next state: 10
+The string is accepted.
+
+
+Program terminated - processing complete.

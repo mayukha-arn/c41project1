@@ -1,6 +1,4 @@
 output_file = "output.txt"
-from email.mime import text
-
 
 log784 = [] #lines on screen shown for output file
 accepting_states = {8,9,10} #stores q8, q9, q10 as accepting states
@@ -27,7 +25,6 @@ def letters784(ch):
     return ch.isalpha() and ch.islower()
 
 #an edge not in diagram should go to trap state (q11)
-
 def transition784(state,ch):
     #start state! - (q1)
     if state ==1:
@@ -74,7 +71,7 @@ def transition784(state,ch):
         elif ch == ".":
             return 6
         return trap_state
-    if state == (9,10):
+    if state == (9, 10):
         if letters784(ch):
             return 5
         elif ch == ".":
@@ -115,7 +112,7 @@ def emailanalyzer784():
         string_input = input784(f"Enter string {i} of {m}: ")
         output784(f"Current value of i: {i}, String: {string_input}")
         
-        output784("Processing the string on the DFA...")
+        output784("Processing the string on the DFA.")
         
         accepted = process_string784(string_input)
         
@@ -125,7 +122,7 @@ def emailanalyzer784():
             output784("The string is rejected.")
         output784("\n")
 
-        output784("Program terminated - processing complete.")
+    output784("Program terminated - processing complete.")
 
 def main784():
     emailanalyzer784()
